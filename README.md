@@ -31,9 +31,9 @@ sudo docker run
 ```
 
 
-#### 3.Testing of RedisGraph ran from 2023-06-13 15:40 until 2023-06-19 08:08. There were three exceptions that occurred and were automatically restarted. The error messages can be found on line 42008, 64772, and 78578 of the redis_logs.txt file (they can be quickly located by searching for the keyword "REDIS BUG REPORT START").
+#### 4.Testing of RedisGraph ran from 2023-06-13 15:40 until 2023-06-19 08:08. There were three exceptions that occurred and were automatically restarted. The error messages can be found on line 42008, 64772, and 78578 of the redis_logs.txt file (they can be quickly located by searching for the keyword "REDIS BUG REPORT START").
 [redis_logs.txt](./redis_logs.txt)
 
 
 
-#### 4.Initial problem diagnosis indicates that there is a conflict between RedisGraph's rdb operation and the "edge" creation command.
+#### 5.Initial problem diagnosis indicates that there is a conflict between RedisGraph's rdb operation and the "edge" creation command.
