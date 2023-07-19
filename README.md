@@ -20,6 +20,15 @@ sudo docker run
 ```
 
 
+#### 3.testing by java program
+```
+# jdk11 + maven
+
+# step1 replace host&&port&&password in class TestMain.java
+
+# step2 running TestMain.java
+
+```
 
 
 #### 3.Testing of RedisGraph ran from 2023-06-13 15:40 until 2023-06-19 08:08. There were three exceptions that occurred and were automatically restarted. The error messages can be found on line 42008, 64772, and 78578 of the redis_logs.txt file (they can be quickly located by searching for the keyword "REDIS BUG REPORT START").
